@@ -14,8 +14,6 @@ public class FNCCTest {
     public static void main(String[] args) {
         BufferedImage image = Capture.load(OCRTest.class, "cyclopst1.png");
         BufferedImage template = Capture.load(OCRTest.class, "cyclopst3.png");
-        BufferedImage image = Capture.load(OCRTest.class, "cyclopst1.png");
-        BufferedImage template = Capture.load(OCRTest.class, "cyclopst3.png");
 
         // rgb image lookup
         {
